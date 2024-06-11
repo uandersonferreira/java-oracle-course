@@ -38,20 +38,20 @@ graph TD
   H --> M[char]
   H --> N[boolean]
 
-  style A fill:#f9f,stroke:#333,stroke-width:2px
-  style B fill:#bbf,stroke:#333,stroke-width:2px
-  style C fill:#bfb,stroke:#333,stroke-width:2px
-  style H fill:#bfb,stroke:#333,stroke-width:2px
-  style D fill:#fbf,stroke:#333,stroke-width:2px
-  style E fill:#fbf,stroke:#333,stroke-width:2px
-  style F fill:#ff9,stroke:#333,stroke-width:2px
-  style G fill:#ff9,stroke:#333,stroke-width:2px
-  style I fill:#ff9,stroke:#333,stroke-width:2px
-  style J fill:#ff9,stroke:#333,stroke-width:2px
-  style K fill:#ff9,stroke:#333,stroke-width:2px
-  style L fill:#ff9,stroke:#333,stroke-width:2px
-  style M fill:#9ff,stroke:#333,stroke-width:2px
-  style N fill:#9ff,stroke:#333,stroke-width:2px
+  style A fill:#660066,stroke:#333,stroke-width:2px,color:#fff
+  style B fill:#333399,stroke:#333,stroke-width:2px,color:#fff
+  style C fill:#336633,stroke:#333,stroke-width:2px,color:#fff
+  style H fill:#336633,stroke:#333,stroke-width:2px,color:#fff
+  style D fill:#993399,stroke:#333,stroke-width:2px,color:#fff
+  style E fill:#993399,stroke:#333,stroke-width:2px,color:#fff
+  style F fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style G fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style I fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style J fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style K fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style L fill:#996633,stroke:#333,stroke-width:2px,color:#fff
+  style M fill:#336699,stroke:#333,stroke-width:2px,color:#fff
+  style N fill:#336699,stroke:#333,stroke-width:2px,color:#fff
 
 ```
 - Java cria tipos primitivos como variáveis ​​​​automáticas que não são referências e são armazenadas na memória da pilha com o nome da variável.
@@ -64,19 +64,20 @@ graph TD
 ```mermaid
 graph TD
   A[Memory] --> B[Stack Memory]
-  A[Memory] --> C[Heap Memory ]
+  A[Memory] --> C[Heap Memory]
 
-  B --> D[Primitives ]
-  B --> E[References ]
+  B --> D[Primitives]
+  B --> E[References]
 
   C --> F[Non-Primitives]
 
-  style A fill:#f9f,stroke:#333,stroke-width:2px
-  style B fill:#bbf,stroke:#333,stroke-width:2px
-  style C fill:#bbf,stroke:#333,stroke-width:2px
-  style D fill:#bfb,stroke:#333,stroke-width:2px
-  style E fill:#bfb,stroke:#333,stroke-width:2px
-  style F fill:#bfb,stroke:#333,stroke-width:2px
+  style A fill:#660066,stroke:#333,stroke-width:2px,color:#fff
+  style B fill:#333399,stroke:#333,stroke-width:2px,color:#fff
+  style C fill:#333399,stroke:#333,stroke-width:2px,color:#fff
+  style D fill:#336633,stroke:#333,stroke-width:2px,color:#fff
+  style E fill:#336633,stroke:#333,stroke-width:2px,color:#fff
+  style F fill:#336633,stroke:#333,stroke-width:2px,color:#fff
+
 ```
 
 ### Primitive Data Types
@@ -268,13 +269,13 @@ graph TD;
   E(E) --> NOT{NOT};
   NOT --> W[!E];
 
-  style AND fill:#f9f,stroke:#333,stroke-width:2px;
-  style OR fill:#9f9,stroke:#333,stroke-width:2px;
-  style NOT fill:#ff9,stroke:#333,stroke-width:2px;
+  style AND color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF,stroke-width:2px;
+  style OR color:#FFFFFF, stroke:#00C853, fill:#00C853,stroke-width:2px;
+  style NOT color:#FFFFFF, stroke:#2962FF, fill:#2962FF,stroke-width:2px;
 
-  classDef AND fill:#f9f,stroke:#333,stroke-width:2px;
-  classDef OR fill:#9f9,stroke:#333,stroke-width:2px;
-  classDef NOT fill:#ff9,stroke:#333,stroke-width:2px;
+  classDef AND color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF,stroke-width:2px;
+  classDef OR color:#FFFFFF, stroke:#00C853, fill:#00C853,stroke-width:2px;
+  classDef NOT color:#FFFFFF, stroke:#2962FF, fill:#2962FF,stroke-width:2px;
 ```
 
 > **Note:** Compreender a lógica booleana é fundamental para a programação!
@@ -452,7 +453,7 @@ int[] numbers = {7, 24, 352, 2, 37} //Length = 5
   - Circle
   - String
   - Student
-    <img src="img/object-class.png">
+
 
 ## Instance Fields
 Claro, aqui está a tradução:
@@ -545,7 +546,7 @@ Student stu = new Student();
 - O programador pode optar por incluir parâmetros
   dependendo da finalidade, da função do método.
 - Os parâmetros podem ser de qualquer tipo de objeto ou primitivo, mas o tipo de parâmetro usado ao chamar o método deve corresponder ao tipo de parâmetro especificado na definição do método.
-  <img src="img/Components-of-Method.png">
+  <img src="./section01/img/Components-of-Method.png">
 
 ## Class Methods
 - Cada classe pode ter um conjunto de métodos associados a ela que permitem funcionalidade para a classe.
@@ -672,9 +673,9 @@ public class StudentTester{
         <<Subclass>>
     }
 
-    style Person fill:#f9f,stroke:#333,stroke-width:2px;
-    style Student fill:#9f9,stroke:#333,stroke-width:2px;
-    style Teacher fill:#ff9,stroke:#333,stroke-width:2px;
+    style Person color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF,stroke-width:2px;
+    style Student color:#FFFFFF, stroke:#00C853, fill:#00C853,stroke-width:2px;
+    style Teacher color:#FFFFFF, stroke:#2962FF, fill:#2962FF,stroke-width:2px;
   ```
 
 ### Extends Keyword
@@ -716,8 +717,8 @@ public class Rectangle extends Shape{
         <<Subclass>>
     }
 
-    style Person fill:#f9f,stroke:#333,stroke-width:2px;
-    style Student fill:#9f9,stroke:#333,stroke-width:2px;
+    style Person color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF,stroke-width:2px;
+    style Student color:#FFFFFF, stroke:#00C853, fill:#00C853,stroke-width:2px;
   ```
 
 ## Object: The Highest Superclass

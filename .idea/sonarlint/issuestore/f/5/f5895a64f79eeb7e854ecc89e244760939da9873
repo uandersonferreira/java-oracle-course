@@ -1,9 +1,0 @@
-
-~
-java:S18543";Remove this useless assignment to local variable "numbers".(òÛĞ8Ä×ÇÙş1J$b5cf1b70-2686-42a4-8903-a780c424447b
-m	java:S106"+Replace this use of System.out by a logger.(ïÛƒ¸8øœ¿Ùş1J$abee3967-80b7-443d-858a-d383c014b127
-l	java:S106""+Replace this use of System.out by a logger.(¡âè=8¿Ùş1J$739cbcd0-e12e-4dd2-badc-6dcea135b37e
-r	java:S106/"+Replace this use of System.out by a logger.(·ùßóıÿÿÿÿ8şÒ¿Ùş1J$f0434f6b-5e33-4930-91ad-62cf778bb42d
-J
-java:S14812"-Remove this unused "numbers2" local variable.(œù™Ô8âğÇÙş1
-ƒ	java:S125="<This block of commented-out lines of code should be removed.(«„ÔÔıÿÿÿÿ8ƒ¿Ùş1J$480fbfc0-caae-408e-b98c-af7c87deb48a
