@@ -38,6 +38,11 @@ graph TD
   H --> M[char]
   H --> N[boolean]
 
+  H --> note["
+         Note: String não é do type primitive, mas sim um object
+         por isso que não entrar na estrutura.
+  "]
+
   style A fill:#660066,stroke:#333,stroke-width:2px,color:#fff
   style B fill:#333399,stroke:#333,stroke-width:2px,color:#fff
   style C fill:#336633,stroke:#333,stroke-width:2px,color:#fff
